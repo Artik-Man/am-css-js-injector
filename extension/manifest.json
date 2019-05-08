@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "CSS and JS Injector",
+  "description": "This extension will allow you to inject custom CSS and JS into pages and store the code in chrome account",
+  "version": "0.1",
+  "author": "Artik Man",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}

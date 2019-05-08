@@ -1,0 +1,14 @@
+{
+  "name": "am-css-js-injector",
+  "version": "0.1",
+  "description": "This extension will allow you to inject custom CSS and JS into pages and store the code in chrome account",
+  "main": "extension/main.js",
+  "devDependencies": {
+    "@types/chrome": "0.0.83",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {},
+  "author": "mail@artik.me",
+  "license": "ISC"
+}
